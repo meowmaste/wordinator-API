@@ -14,3 +14,7 @@ class Anagram
   end 
   
 end 
+
+a = Anagram.new("ant", "tan")
+a.solve
+puts a.anagram 
